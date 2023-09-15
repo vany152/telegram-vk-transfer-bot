@@ -8,7 +8,7 @@ var cancellationTokenSource = new CancellationTokenSource();
 var cancellationToken = cancellationTokenSource.Token;
 GlobalStorage.Cts = cancellationToken;
 
-const string token = "6477538585:AAEme0vseuaFANUFYPLGc0o9gUF2G8VczFQ";
+const string token = "6477538585:AAEme0vseuaFANUFYPLGc0o9gUF2G8VczFQ"; // token revoked
 var bot = new TelegramBotClient(token);
 GlobalStorage.BotClient = bot;
 // MessageHandler.BotClient = bot;
